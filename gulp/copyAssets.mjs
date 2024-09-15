@@ -14,7 +14,9 @@ const copy = () =>
     'source/fonts/**',
     'source/img/**',
     'source/favicon.ico',
-    'source/manifest.json'
+    'source/manifest.json',
+    'source/**.png',
+    'source/**.svg'
   ], {
     base: 'source',
   })
